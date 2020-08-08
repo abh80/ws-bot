@@ -13,6 +13,8 @@ export interface EmbedProps {
     footer?: any;
     author?: any;
     color?: number;
+    thumbnail?: string;
+    image?: string;
   };
 }
 export class WebSocket extends EventEmitter {
