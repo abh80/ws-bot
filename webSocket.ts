@@ -28,7 +28,7 @@ export class WebSocket extends EventEmitter {
   }
   login() {
     this.emit("debug", "Attempting to Connect");
-    this.ws = new ws("wss://gateway.discord.gg/?v=6&encoding=json");
+    this.ws = new ws("wss://gateway.discord.gg/?v=8&encoding=json");
     this.ws.once("open", () => {
       this.emit("debug", "connected attempting to login....");
       const data = this.getReturnable();
