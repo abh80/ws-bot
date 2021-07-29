@@ -13,7 +13,7 @@
     "@types/node-fetch": "^2.5.7",
     "@types/ws": "^7.2.6",
     "node-fetch": "^2.6.0",
-    "ws": "^7.3.1",
+    "ws": "^8.0.0",
     "zlib-sync":"https://github.com/abalabahaha/zlib-sync"
   }
 }
