@@ -12,7 +12,7 @@
   "dependencies": {
     "@types/node-fetch": "^2.5.7",
     "@types/ws": "^7.2.6",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^3.1.1",
     "ws": "^7.3.1",
     "zlib-sync":"https://github.com/abalabahaha/zlib-sync"
   }
